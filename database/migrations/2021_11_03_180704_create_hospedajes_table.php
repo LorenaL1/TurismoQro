@@ -21,7 +21,7 @@ class CreateHospedajesTable extends Migration
             $table->integer('type');
             $table->string('name_place');
             $table->string('mapa');
-            $table->integer('phone'); //cambiar a string
+            $table->string('phone'); //cambiar a string
             $table->string('image');
             $table->text('content');
             $table->softDeletes($column = 'deleted_at', $precision = 0);
